@@ -8,7 +8,7 @@ MAINTAINER Azure App Service Container Images <appsvc-images@microsoft.com>
 ENV DOCKER_BUILD_HOME "/dockerbuild"
 # drupal 
 ENV DRUPAL_SOURCE "/usr/src/drupal" 
-ENV DRUPAL_HOME "/home/site/wwwroot"
+ENV DRUPAL_HOME "/home/site/wwwroot/"
 # mariadb
 ENV MARIADB_DATA_DIR "/home/data/mysql"
 ENV MARIADB_LOG_DIR "/home/LogFiles/mysql"
